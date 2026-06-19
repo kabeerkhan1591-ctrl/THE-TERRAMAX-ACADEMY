@@ -1,0 +1,451 @@
+/* ═══════════════════════════════════════════════
+   TERRAMAX ACADEMY — RESPONSIVE CSS
+   Link this AFTER index.css in your HTML <head>
+   <link href="responsive.css" rel="stylesheet">
+═══════════════════════════════════════════════ */
+
+/* ────────────────────────────────
+   LARGE TABLETS (max-width: 1024px)
+──────────────────────────────── */
+@media (max-width: 1024px) {
+
+   @media (max-width: 1024px) {
+
+    /* NAVBAR */
+    .main {
+        height: auto;
+        padding: 14px 20px;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-1 {
+        width: auto;
+        height: auto;
+        float: none;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .logo {
+        width: 55px;
+    }
+    .head {
+        font-size: 1.1rem;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .container-2 {
+        width: auto;
+        height: auto;
+        float: none;
+    }
+    .ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .anchor {
+        float: none;
+        padding: 12px 14px;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 0.85rem;
+    }
+    
+    /* HERO */
+    .img1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .text {
+        margin-top: -420px;
+        margin-left: 0;
+    }
+
+    /* ABOUT */
+    .about-gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px 200px;
+    }
+    .abt-img-wrap:first-child {
+        grid-row: auto;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+        padding: 50px 7% 40px;
+    }
+}
+
+/* ────────────────────────────────
+   TABLETS (max-width: 900px)
+──────────────────────────────── */
+@media (max-width: 900px) {
+
+    /* NAVBAR */
+    .main {
+        height: auto;
+        padding: 12px 20px;
+        border-radius: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-1 {
+        width: auto;
+        height: auto;
+        float: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo {
+        width: 50px;
+    }
+    .head {
+        font-size: 1rem;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .container-2 {
+        width: auto;
+        height: auto;
+        float: none;
+    }
+    .ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .anchor {
+        float: none;
+        padding: 10px 12px;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 0.78rem;
+    }
+
+    /* HERO */
+    .hero-main {
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px 40px;
+    }
+    .box-1 {
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+    .head2 {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 1.8rem;
+    }
+    .paragraph {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .btn, .btn2 {
+        margin-left: 8px;
+        margin-bottom: 10px;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    .box-2 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .img1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .text {
+        margin-top: 16px;
+        margin-left: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* ABOUT */
+    .about-section {
+        padding: 60px 5%;
+    }
+    .about-title {
+        font-size: 2.4rem;
+    }
+    .about-mission {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-stats {
+        flex-direction: row;
+        min-width: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .abt-stat {
+        flex: 1;
+        min-width: 120px;
+    }
+    .about-gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px;
+    }
+    .abt-img-wrap:first-child {
+        grid-row: auto;
+    }
+    .about-values {
+        grid-template-columns: 1fr 1fr;
+    }
+    .founder-credit {
+        display: block;
+    }
+
+    /* CONTACT */
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-map {
+        height: 350px;
+    }
+    .contact-section {
+        padding: 60px 5% 70px;
+    }
+    .contact-title {
+        font-size: 30px;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+        padding: 50px 7% 40px;
+    }
+}
+
+/* ────────────────────────────────
+   MOBILE (max-width: 600px)
+──────────────────────────────── */
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 16px;
+        gap: 8px;
+        text-align: center;
+    }
+    .container-1 {
+        justify-content: center;
+    }
+    .head {
+        font-size: 0.9rem;
+    }
+    .ul {
+        justify-content: center;
+        width: 100%;
+    }
+    .anchor {
+        padding: 8px 10px;
+        font-size: 0.72rem;
+        margin-top: 0;
+    }
+    .anchor:hover {
+        font-size: 0.78rem;
+        letter-spacing: 1px;
+    }
+
+    /* HERO */
+    .hero-main {
+        padding: 16px 16px 30px;
+        margin-top: 16px;
+    }
+    .head2 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .paragraph {
+        font-size: 0.9rem;
+    }
+    .btn, .btn2 {
+        padding: 0.75rem 1.2rem;
+        font-size: 0.85rem;
+        margin-left: 6px;
+    }
+    .text .num-big {
+        font-size: 2.5rem;
+    }
+    .text .tag-line {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+    .text .sub-tag {
+        font-size: 0.75rem;
+        letter-spacing: 1.5px;
+    }
+
+    /* ABOUT */
+    .about-section {
+        padding: 50px 5%;
+    }
+    .about-title {
+        font-size: 2rem;
+    }
+    .about-stats {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .abt-stat {
+        min-width: unset;
+    }
+    .about-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .abt-img-wrap {
+        height: 200px;
+    }
+    .about-values {
+        grid-template-columns: 1fr;
+    }
+
+    /* COURSES */
+    .courses-section {
+        padding: 50px 5%;
+    }
+    .courses-title {
+        font-size: 2rem;
+    }
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* FORM */
+    .form-section {
+        padding: 50px 5%;
+    }
+    .form-title {
+        font-size: 2rem;
+    }
+    .adm-form {
+        padding: 24px 16px;
+        border-radius: 14px;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    .form-group-title {
+        font-size: 0.9rem;
+        padding: 10px 14px;
+    }
+    .form-submit-btn {
+        font-size: 0.95rem;
+        letter-spacing: 1px;
+        padding: 14px;
+    }
+
+    /* CONTACT */
+    .contact-section {
+        padding: 50px 5% 60px;
+    }
+    .contact-title {
+        font-size: 1.8rem;
+    }
+    .contact-map {
+        height: 280px;
+    }
+    .contact-directions-btn {
+        display: block;
+        text-align: center;
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        grid-template-columns: 1fr;
+        padding: 40px 6% 30px;
+        gap: 28px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 6px;
+        padding: 16px 6%;
+    }
+
+    /* BACK TO TOP */
+    #back-to-top {
+        bottom: 24px;
+        left: 20px;
+        width: 46px;
+        height: 46px;
+    }
+}
+
+/* ────────────────────────────────
+   VERY SMALL PHONES (max-width: 400px)
+──────────────────────────────── */
+@media (max-width: 400px) {
+
+    /* NAVBAR */
+    .head {
+        font-size: 0.75rem;
+    }
+    .anchor {
+        padding: 6px 8px;
+        font-size: 0.65rem;
+    }
+
+    /* HERO */
+    .head2 {
+        font-size: 1.2rem;
+    }
+    .btn, .btn2 {
+        padding: 0.65rem 1rem;
+        font-size: 0.8rem;
+        margin-left: 4px;
+    }
+
+    /* ABOUT */
+    .about-title {
+        font-size: 1.7rem;
+    }
+
+    /* FORM */
+    .form-title {
+        font-size: 1.7rem;
+    }
+    .adm-form {
+        padding: 16px 12px;
+    }
+
+    /* CONTACT */
+    .contact-title {
+        font-size: 1.5rem;
+    }
+
+    /* COURSES */
+    .courses-title {
+        font-size: 1.7rem;
+    }
+}
